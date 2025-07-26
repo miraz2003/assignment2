@@ -11,7 +11,6 @@ margin-left: 150px;
 
 .navbar{
    justify-content: space-between;
-   /* margin-top: 30px; */
    padding-top: 30px;
    margin-right: 150px;
    
@@ -62,6 +61,7 @@ margin-left: 150px;
 
 .highlight{
     color: #E95A08
+    
 }
 
 
@@ -81,9 +81,22 @@ margin-left: 150px;
 
 .plants {
   text-align: center;
+ 
    padding: 50px 18px;  
 
 }
+
+
+.plants-color{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.plants h1{
+    font-size: 40px;
+}
+
+
+
 
 
 
@@ -229,9 +242,116 @@ margin-left: 150px;
     
   list-style: disc;
   padding-left: 1.25rem;
-  color: #555;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .flower-text li {
   margin-bottom: 0.5rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 3 pic wala section  */
+
+
+
+
+.deals {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  font-family: sans-serif;
+}
+
+
+
+
+.deals h1 {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+
+
+
+
+.deals h1 span {
+  color: #E95A08;
+}
+
+
+
+.deals p {
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+}
+
+
+
+
+
+.deal-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.deal {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.deal img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+
+
+.label {
+   position: absolute; 
+   
+  bottom: 120px;
+  left: 60px;
+  
+  color: white;
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: 16px;
+  width: 100%;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+
+
