@@ -1,0 +1,237 @@
+.logo {
+/* margin-top : 5px; */
+/* padding-top: 10px; */
+margin-left: 150px;
+  width: 100px; 
+  /* height: auto; */
+  
+}
+
+
+
+.navbar{
+   justify-content: space-between;
+   /* margin-top: 30px; */
+   padding-top: 30px;
+   margin-right: 150px;
+   
+}
+
+.nav-links{
+    /* display: flex; */
+}
+
+.display-flex{
+     display: flex; 
+}
+
+
+.nav-item{
+        list-style: none;
+    margin-right: 22px;
+}
+
+.nav-link{
+    text-decoration: none;
+}
+
+.text-gray{
+    color:#252432 ;
+}
+
+.text-light-gray{
+    color: #8987A1;
+}
+
+.text-light-gray2{
+    color: #000000
+}
+
+
+.banner{
+    display: flex;
+    margin-right: 150px;
+    margin-top: 120px;
+}
+
+/* 
+
+.banner-img {
+  flex: 1;
+} */
+
+.highlight{
+    color: #E95A08
+}
+
+
+.banner-text{
+    padding-top: 185px;
+    padding-left: 150px;
+}
+
+.highlight2{
+    color: #111111;
+      font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+
+.plants {
+  text-align: center;
+   padding: 50px 18px;  
+
+}
+
+
+
+.plant-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 49px;
+
+
+}
+
+
+
+ .plant-card {
+
+  border-radius: 100px;
+  padding: 20px;
+  width: 200px;
+
+  text-align: center;
+}
+
+
+
+
+.plant-card img {
+  width: 100%;
+  height: auto;
+  /* border-radius: 4px; */
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+.plant-card button {
+  background-color: #E95A08;
+  color: white;
+  border: none;
+  padding: 4px 70px;
+  text-align: center;
+ 
+}
+
+.btn{
+     text-align: center;
+    text-decoration: line; 
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lover-section {
+   display: flex; 
+  flex-direction: column;
+  padding-left: 135px;
+  
+  padding-top: 50px;
+  gap: 40px;
+}
+
+
+
+
+
+@media (min-width: 768px) {
+  .lover-section {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flower-image-container {
+   position: relative; 
+  width: 100%;
+  max-width: 500px;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+  /* border-radius: 10px; */
+}
+
+.trusted-badge {
+  position: absolute;
+  top: -90px;
+
+  right: -70px;
+  width: 200px;
+  animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.flower-text {
+  max-width: 600px;
+  /* padding-left: 0px; */
+}
+
+.flower-text h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.flower-text ul {
+    
+  list-style: disc;
+  padding-left: 1.25rem;
+  color: #555;
+}
+
+.flower-text li {
+  margin-bottom: 0.5rem;
+}
